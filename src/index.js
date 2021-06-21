@@ -9,7 +9,7 @@ const DEFAULT_OPTIONS = {
   generateReqError: (resp) => new Error(`Request failed: ${resp.status}`)
 }
 
-export const serviceDispatcher = (
+const serviceDispatcher = (
   serviceMethodThunk = noop,
   resultAction = noop,
   options = {}
