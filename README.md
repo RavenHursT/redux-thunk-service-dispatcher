@@ -9,7 +9,7 @@
 ```bash
 npm install --save redux-thunk-service-dispatcher
 ```
-
+[Example Usage](https://ravenhurst.github.io/redux-thunk-service-dispatcher/)
 ## Usage
 
 Given `fetch` service thunks setup like so:
